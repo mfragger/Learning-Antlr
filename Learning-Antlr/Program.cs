@@ -5,8 +5,6 @@ using Antlr4.Runtime;
 using Learning_Antlr;
 using Learning_Antlr.ANTLR;
 
-Console.WriteLine("Hello, World!");
-
 var fileName = "SampleScript\\test.ss";
 
 var fileContents = File.ReadAllText(fileName);

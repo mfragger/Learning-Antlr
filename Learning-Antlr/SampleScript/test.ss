@@ -1,9 +1,11 @@
-﻿i = 0;
+﻿Write("Hello World! I am Simple Language");
+
+i = 0;
 name = 'John "Nickname" Whatever';
 
 Write(name);
 
-until i < 4
+while i< 4
 {
     Write("i isn't big enough - " + i + " - so let's make bigger");
     i = i + 1;
